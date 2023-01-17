@@ -1,0 +1,54 @@
+#heading h1{
+    font-weight: 600;
+    font-size: 2.5vw;
+    opacity:0.3;
+    color:white;
+  }
+  #heading h2{
+    font-weight: 600;
+    font-size: 2.5vw;
+    color:white;
+    position:relative;
+    bottom: 2.5vw;
+  }
+  .eventName{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: min-content;
+    margin-top: 3rem;
+    box-sizing: border-box;
+  }
+.event{
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.eventImg {
+    height: 80%;
+    width: 180vw;
+    min-width: 200px;
+}
+
+.eventDesc{
+    font-size: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: justify;
+    min-width: 200px;
+}
+
+.space {
+    width: 10px;
+    visibility: hidden;
+}
+
+.madhavBhaiya {
+    border-radius: 50px;
+    border: solid #D01919 0.25rem;
+}

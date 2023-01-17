@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import Bash from './Components/Bash';
+import Particles, { ISourceOptions} from "react-tsparticles";
+import EventRight from './Components/EventRight.js';
+import EventLeft from './Components/EventLeft.js';
+import Madhavendra from './EventImages/madhavendra.png'
+import ParticleBackground from './Components/tspar';
+import Gallery from './Components/Gallery';
+import GalleryImages from './Components/GalleryImages';
+import party from './EventImages/partyima.jpeg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Bash />
+      <EventRight name={"Event Name"} image={Madhavendra} content={"Lorem ipsum dolor sit amet consectetur. Sit enim euismod pellentesque vulputate dui vel. Feugiat eget condimentum posuere ipsum. Vehicula ut sit dolor sed parturient at nunc. Lorem ipsum dolor sit amet consectetur. Sit enim euismod pellentesque vulputate dui vel. Feugiat eget condimentum posuere ipsum. Vehicula ut sit dolor sed parturient at nunc."} />
+      <EventLeft name={"Event Name"} image={Madhavendra} content={"Lorem ipsum dolor sit amet consectetur. Sit enim euismod pellentesque vulputate dui vel. Feugiat eget condimentum posuere ipsum. Vehicula ut sit dolor sed parturient at nunc. Lorem ipsum dolor sit amet consectetur. Sit enim euismod pellentesque vulputate dui vel. Feugiat eget condimentum posuere ipsum. Vehicula ut sit dolor sed parturient at nunc."} />
+      <EventRight name={"Event Name"} image={Madhavendra} content={"Lorem ipsum dolor sit amet consectetur. Sit enim euismod pellentesque vulputate dui vel. Feugiat eget condimentum posuere ipsum. Vehicula ut sit dolor sed parturient at nunc. Lorem ipsum dolor sit amet consectetur. Sit enim euismod pellentesque vulputate dui vel. Feugiat eget condimentum posuere ipsum. Vehicula ut sit dolor sed parturient at nunc."} />
+      <EventLeft name={"Event Name"} image={Madhavendra} content={"Lorem ipsum dolor sit amet consectetur. Sit enim euismod pellentesque vulputate dui vel. Feugiat eget condimentum posuere ipsum. Vehicula ut sit dolor sed parturient at nunc. Lorem ipsum dolor sit amet consectetur. Sit enim euismod pellentesque vulputate dui vel. Feugiat eget condimentum posuere ipsum. Vehicula ut sit dolor sed parturient at nunc."} />
+      <Gallery />
+      <GalleryImages img1={party} img2={Madhavendra} img3={Madhavendra}/>
+      <GalleryImages img1={party} img2={Madhavendra} img3={Madhavendra}/>
+      {/* <ParticleBackground /> */}
     </div>
   );
 }
