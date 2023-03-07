@@ -1,32 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-
-*{
-  /* background-color: #162053; */
-  font-family: 'Outfit';
+* {
   margin: 0;
-  font-style: normal;
-  box-sizing: 0;
-  color:white
+  padding: 0;
+  font-family: "Outfit";
+  box-sizing: border-box;
+  /* border: solid 1px red; */
 }
 body {
-  margin: 0;
-  font: normal 75% Arial, Helvetica, sans-serif;
-  background-image: url('./EventImages/bizbg.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
-
-canvas {
-  display: block;
-}
-drop_shadow{
-  filter: drop-shadow(-6px 6px 7px rgba(100, 23, 23, 0.5));;
-}
+/* Navbar css */
 ul {
   list-style-type: none;
 }
@@ -89,9 +76,6 @@ nav {
   transition: all 0.3s linear;
   left: 10%;;
   justify-content: space-around;
-}
-.scrollbar-hide::-webkit-scrollbar{
-  display: none;
 }
 #Footer {
   display: flex;
@@ -298,19 +282,4 @@ a{
       left: 74.5%;
     }
   }
-.coming{
-  background: linear-gradient(268.42deg, rgba(4, 25, 66, 0.75) 0.61%, rgba(0, 0, 0, 0.75) 96.63%);
-filter: blur(0.338542px);
-/* border: 2.71px solid  linear-gradient(267.09deg, #FFFFFF 2.58%, #11336E 31.7%, #D01919 100%); */
-border: 3px solid;
-border-image-slice: 1;
-border-width: 5px;
-border-radius: 20px;
-
-border-image-source: linear-gradient(267.09deg, #FFFFFF 2.58%, #11336E 31.7%, #D01919 100%);
-
-
-
-
-}
 
