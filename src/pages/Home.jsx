@@ -3,6 +3,7 @@ import Intro from '../Components/Home/Intro'
 import Domains from '../Components/Home/Domains'
 import OurEvents from '../Components/Home/OurEvents'
 import Workshop from '../Components/Home/Workshop'
+import Achievements from '../Components/Home/Achievements'
 const Homepage = () => {
   return (
     <>
@@ -17,6 +18,11 @@ const Homepage = () => {
         </div>
         <div className='w-[99vw] flex flex-col my-5'>
           <Workshop />
+        <div className='w-[99vw] flex flex-col my-5'>
+          <Achievements />
+        </div>
+
+        
         </div>
     </>
   )

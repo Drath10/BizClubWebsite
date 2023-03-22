@@ -11,6 +11,7 @@ const events=[
         title:"The Flagship Business Competition",
         link:"/events/2",
     },
+    
 
 ]
 export default events;

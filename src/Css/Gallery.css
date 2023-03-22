@@ -15,17 +15,22 @@
 }
 
 .img1{
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
+    margin-left: 3.5vw;
+    margin-right: 1.5vw;
+    margin-top: 2vh; 
+}
+.img2{
+    margin-top: 2vh; 
+}
+.img3{
+    margin-left: 1.5vw;
+    margin-right: 3.5vw;
     margin-top: 2vh; 
 }
 
 .galleryImage{
     margin-top: 5vh;
-    height: 55%;
-    width: 55vw;
-    
-    border-radius: 50px;
-   
+    height: 80%;
+    width: 50vw;
     /* min-width: px; */
 }

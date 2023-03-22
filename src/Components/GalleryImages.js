@@ -6,11 +6,11 @@ const GalleryImages = ({ img1, img2, img3 }) => {
         <div className="Images">
             <div className="img1"> 
                 <img src={img1} className="galleryImage"></img>
-            </div>
-            <div className="img1"> 
+            </div >
+            <div className="img2"> 
                 <img src={img2} className="galleryImage"></img>
             </div>
-            <div className="img1"> 
+            <div className="img3"> 
                 <img src={img3} className="galleryImage"></img>
             </div>
 
