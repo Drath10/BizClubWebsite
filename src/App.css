@@ -65,7 +65,8 @@ nav {
 .logo {
   height: 7rem;
   width: 120px;
-  padding-left: 4px;
+  padding-left: 0px;
+  margin-left: 40px;
   
 }
 .links a {
@@ -107,6 +108,16 @@ nav {
 
   filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
   height: 100vh;
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+
+    height: 5rem;
+  width: 80px;
+  padding-left: 0px;
+  margin-left: 40px;
+  
+  }
 }
 #ContactUs{@apply p-[10] text-[7vw] self-center h-[22vh] flex }
 #ContactUs>div{@apply self-center }
@@ -192,7 +203,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 10vw;
+    gap: 25vw;
   }
   
   .nav-toggle {
@@ -217,7 +228,7 @@ nav {
   display: inline-block;
   padding: 0;
   margin: 0 0.5rem;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
  .links a:hover {
   padding: 0;
