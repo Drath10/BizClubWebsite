@@ -7,7 +7,7 @@ import Achievements from '../Components/Home/Achievements'
 const Homepage = () => {
   return (
     <>
-        <div className='w-[99vw] min-h-[30vw] h-min flex  justify-center px-[10vw]  '>
+        <div className='w-[99vw] min-h-[30vw] h-min flex my-20 justify-center px-[10vw]  '>
             <Intro />
         </div>
         <div className='w-[99vw]  flex flex-col'>
