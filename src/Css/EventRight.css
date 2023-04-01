@@ -53,6 +53,30 @@
 
 .EveImg {
   /* height: 40vh; */
+  transition: all .2s ease-in-out;
+
   width: 22vw;
   min-width: 230px;
 }
+.EveImg:hover{
+  transform: scale(1.1);
+}
+/* .eve-link{
+  display: block;
+  box-sizing: content-box;
+} */
+.eve-link::after{
+  content: "";
+  position: absolute;
+  background-color:  rgb(248, 252, 203);
+  height: 3px;
+  width: 0;
+  left: 0px;
+  bottom: -9.5px;
+  transition: 0.3s;
+  transition-timing-function: linear;
+}
+.eve-link:hover::after{
+  width: 100%;
+}
+
