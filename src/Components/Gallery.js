@@ -13,12 +13,17 @@ const Gallery = () => {
          <span className="text-[#D01919]"> found our family!</span>
 
         </div>
-        <GalleryImages img1={party} img2={prod} img3={prod}/>
+        <div className='text-white font-bold text-[5vw] text-center max-xs:text-xl mt-[7vw]'>B.A.S.H <span className='text-[#D01919]'>5.0</span></div>
+        <GalleryImages img1={party} img2={party} img3={party}/>
+        <div className='text-white font-bold text-[5vw] text-center max-xs:text-xl mt-[7vw]'>B.A.S.H <span className='text-[#D01919]'>5.0</span></div>
         <GalleryImages img1={party} img2={prod} img3={party}/>
+        <div className='text-white font-bold text-[5vw] text-center max-xs:text-xl mt-[7vw]'>B.A.S.H <span className='text-[#D01919]'>5.0</span></div>
         <GalleryImages img1={party} img2={prod} img3={prod}/>
+        <div className='text-white font-bold text-[5vw] text-center max-xs:text-xl mt-[7vw]'>B.A.S.H <span className='text-[#D01919]'>5.0</span></div>
         <GalleryImages img1={party} img2={prod} img3={party}/>
+        <div className='text-white font-bold text-[5vw] text-center max-xs:text-xl mt-[7vw]'>B.A.S.H <span className='text-[#D01919]'>5.0</span></div>
         <GalleryImages img1={party} img2={prod} img3={prod}/>
-        <GalleryImages img1={party} img2={prod} img3={party}/>        
+        
         </>
     )
 };

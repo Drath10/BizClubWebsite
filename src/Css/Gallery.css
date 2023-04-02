@@ -1,6 +1,7 @@
 .GalleryHead{
     font-weight: 600;
     font-size: 5vh;
+    margin-top: 5vh;
     /* display: flex;
     flex-direction: column; */
     justify-items: center;

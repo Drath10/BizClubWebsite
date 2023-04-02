@@ -2,8 +2,8 @@ import React from 'react'
 
 const Oureventtile = ({item}) => {
   return (
-    <div className='w-full  flex flex-col items-center '> 
-        <div className='text-white font-bold text-[2vw] lg:text-2xl max-sm:text-lg '>
+    <div className='w-full  flex flex-col items-center'> 
+        <div className='text-white font-bold text-[2vw] lg:text-2xl max-sm:text-lg mb-[1.5vh]'>
             {item.title}
         </div>
         <div className='drop_shadow rounded-[50px]  w-full max-xs:h-[30vh]'>
