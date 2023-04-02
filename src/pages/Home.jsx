@@ -21,6 +21,9 @@ const Homepage = () => {
         <div className='w-[99vw] flex flex-col my-5'>
           <Achievements />
         </div>
+        {/* <div className='w-[99vw] flex flex-col my-5'>
+          <footer />
+        </div> */}
 
         
         </div>

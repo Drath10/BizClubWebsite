@@ -23,23 +23,24 @@ const Achievements = () => {
   return (
     <div>
         <div className='text-white font-bold text-[4vw] text-center max-xs:text-xl mt-[7vh]'>Our <span className='text-[#D01919]'>Achievements</span></div>
-        <div class="flex justify-center mt-[5vh] items-center">
-            <div class="text-[4vw] flex flex-wrap justify-center mr-[5vw] w-[20vw] border-white border-[2px] rounded-[10px]"> 
+        {/* <div class="flex justify-center mt-[5vh] items-center"> */}
             
-                {/* <h1 className='w-[100%] text-center'>12</h1> 
-                <h2>Number of </h2>
-                <h2>medals</h2> */}
-                <h1>{text}</h1>
-            
-            </div>
-            <div class= "box-border flex justify-center h-[300px] w-[40vw]">
+            <div class= "box-border flex justify-center ml-[15vw] mr-[15vw] mt-[5vh]">
             <Splide aria-label="My Favorite Images" 
             onMove={handleMove}
-            data-splide='{"type":"loop","wheelSleep":100,"autoplay":"pause"}'
+            // data-splide='{"type":"loop","wheelSleep":100,"autoplay":"pause"}'
             options={{
-                heightRatio : 2,
-                height:300,
-                autoplay:true
+              // cover:true,
+                type:"loop",
+                autoplay:true,
+                interval:3000,
+                height:'25vw',
+                // autoWidth:true,
+                // autoHeight:true,
+                flickMaxPages:1,
+                pauseOnFocus:false,
+                pauseOnHover:false,
+                perPage:2,
             }}
             //data-splide-interval="100" 
             className=''>
@@ -64,7 +65,15 @@ const Achievements = () => {
             </SplideSlide> */}
             </Splide>
             </div>
-        </div>
+            <div class="text-[2vw] flex flex-wrap justify-center mr-[5vw] mt-[5vw] ml-[10vw] border-white border-[5px] rounded-[10px]"> 
+            
+                {/* <h1 className='w-[100%] text-center'>12</h1> 
+                <h2>Number of </h2>
+                <h2>medals</h2> */}
+                <h1>{text}</h1>
+            
+            </div>
+        {/* </div> */}
 
     </div>
   )

@@ -7,6 +7,7 @@ import Gallery from "./Gallery"
 import GalleryImages from "./GalleryImages"
 import Madhavendra from "../EventImages/madhavendra.png"
 import party from "../EventImages/partyima.jpeg"
+import Work from './Work'
 import prod from '../EventImages/ProdBreak.png'
 const Bash = () => {
     return (
@@ -30,7 +31,7 @@ const Bash = () => {
         </div>
         <div className="BashEvents mt-8">
         <div className='text-white font-bold text-[4vw] text-center max-xs:text-xl'>Workshop<span className='text-[#D01919]'> Conducted</span></div>
-            <Scroll />
+            <Work />
         </div>
         {/* <div className='w-[99vw] flex items-center justify-center'> */}
          {/* <div className='coming w-[35%]  text-center py-4 px-8 text-[5vw] font-bold ' style={{borderRadius:"20px"}}>
