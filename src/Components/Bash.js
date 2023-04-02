@@ -1,6 +1,6 @@
 import '../Css/Bash.css'
 import eve1 from '../EventImages/madhavendra.png'
-import Scroll from './Scroll';
+// import Scroll from './Scroll';
 import EventLeft from "./EventLeft"
 import EventRight from "./EventRight"
 import Gallery from "./Gallery"

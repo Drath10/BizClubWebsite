@@ -39,7 +39,7 @@ const Achievements = () => {
                 // autoHeight:true,
                 flickMaxPages:1,
                 pauseOnFocus:false,
-                pauseOnHover:false,
+                pauseOnHover: false,
                 perPage:2,
             }}
             //data-splide-interval="100" 

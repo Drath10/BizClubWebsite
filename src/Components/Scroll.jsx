@@ -3,14 +3,14 @@ import {imgdata} from "../imgdata"
 import {MdChevronLeft,MdChevronRight} from "react-icons/md";
 // import "./Scroll.css"
 export default function Scroll(){
-    // const slideleft = ()=>{
-    //     var slider = document.getElementById("slide");
-    //     slider.scrollLeft = slider.scrollLeft - 500;
-    // }
-    // const slideright = () => {
-    //     var slider = document.getElementById("slide");
-    //     slider.scrollLeft = slider.scrollLeft + 500;
-    // }
+    const slideleft = ()=>{
+        var slider = document.getElementById("slide");
+        slider.scrollLeft = slider.scrollLeft - 500;
+    }
+    const slideright = () => {
+        var slider = document.getElementById("slide");
+        slider.scrollLeft = slider.scrollLeft + 500;
+    }
 
     return(
         <>
