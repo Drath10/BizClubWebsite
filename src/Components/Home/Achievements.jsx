@@ -38,7 +38,7 @@ const Achievements = () => {
                 // autoWidth:true,
                 // autoHeight:true,
                 flickMaxPages:1,
-                pauseOnFocus:false,
+                pauseOnFocus: false,
                 pauseOnHover: false,
                 perPage:2,
             }}
