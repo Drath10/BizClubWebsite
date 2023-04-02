@@ -34,7 +34,7 @@ const Achievements = () => {
                 type:"loop",
                 autoplay:   true,
                 interval:3000,
-                height:'25vw',
+                height: '25vw',
                 // autoWidth:true,
                 // autoHeight:true,
                 flickMaxPages:1,
