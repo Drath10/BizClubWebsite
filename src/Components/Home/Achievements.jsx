@@ -12,7 +12,7 @@ import { useState } from 'react';
 
 const Achievements = () => {
   const arr = [
-    "Inter-IIT 10.0 Gold medal hsaifhiashfoaisfiashfasiofhasoifhasiohfaisohfaiosfhasihfasiofhasiofhasifhasofashfi","Bizarro SARC Tank, IITB winners.","ICC, IITKharagpur gold medal","PMX gold,silver,bronze medal"
+    "Inter-IIT 10.0 Gold medal ","Bizarro SARC Tank, IITB winners.","ICC, IITKharagpur gold medal","PMX gold,silver,bronze medal"
   ]
   // console.log(arr[1])
   const [text,setText] = useState(arr[0])
