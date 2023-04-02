@@ -32,7 +32,7 @@ const Achievements = () => {
             options={{
               // cover:true,
                 type:"loop",
-                autoplay:true,
+                autoplay:   true,
                 interval:3000,
                 height:'25vw',
                 // autoWidth:true,
