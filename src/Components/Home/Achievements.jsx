@@ -12,7 +12,7 @@ import { useState } from 'react';
 
 const Achievements = () => {
   const arr = [
-    "madhav1","Madhav2","madhav3","monty"
+    "Inter-IIT 10.0 Gold medal hsaifhiashfoaisfiashfasiofhasoifhasiohfaisohfaiosfhasihfasiofhasiofhasifhasofashfi","Bizarro SARC Tank, IITB winners.","ICC, IITKharagpur gold medal","PMX gold,silver,bronze medal"
   ]
   // console.log(arr[1])
   const [text,setText] = useState(arr[0])
@@ -22,7 +22,7 @@ const Achievements = () => {
   }
   return (
     <div>
-        <div className='text-white font-bold text-[4vw] text-center max-xs:text-xl mt-[7vh]'>Our <span className='text-[#D01919]'>Achievements</span></div>
+        <div className='text-white font-bold text-[4vw] text-center max-xs:text-xl mt-[7%]'>Our <span className='text-[#D01919]'>Achievements</span></div>
         {/* <div class="flex justify-center mt-[5vh] items-center"> */}
             
             <div class= "box-border flex justify-center ml-[15vw] mr-[15vw] mt-[5vh]">
@@ -34,6 +34,8 @@ const Achievements = () => {
                 type:"loop",
                 autoplay:   true,
                 interval:3000,
+                gap: "20px",
+                drag: "free",
                 height: '25vw',
                 // autoWidth:true,
                 // autoHeight:true,
@@ -52,20 +54,20 @@ const Achievements = () => {
             {/* </div> */}
             </SplideSlide>
             <SplideSlide className='flex flex-row items-center justify-center'>
-            <img src={img3} alt="Image 1"/>
+            <img src={prod} alt="Image 1"/>
             </SplideSlide>
             <SplideSlide className='flex flex-row items-center justify-center'>
-            <img src={img1} alt="Image 1"/>
+            <img src={prod} alt="Image 1"/>
             </SplideSlide>
             <SplideSlide className='flex flex-row items-center justify-center'>
-            <img src={img4} alt="Image 1"/>
+            <img src={prod} alt="Image 1"/>
             </SplideSlide>
             {/* <SplideSlide>
             <img src="image2.jpg" alt="Image 2"/>
             </SplideSlide> */}
             </Splide>
             </div>
-            <div class="text-[2vw] flex flex-wrap justify-center mr-[5vw] mt-[5vw] ml-[10vw] border-white border-[5px] rounded-[10px]"> 
+            <div class="text-[2vw] flex flex-wrap justify-center mr-[5vw] mt-[5vw] ml-[10vw]  rounded-[10px]"> 
             
                 {/* <h1 className='w-[100%] text-center'>12</h1> 
                 <h2>Number of </h2>

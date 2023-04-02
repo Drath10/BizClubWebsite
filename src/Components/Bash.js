@@ -40,7 +40,7 @@ const Bash = () => {
         <EventRight 
             name={"Consultium"} 
             image={prod} 
-            content={"The flagship consulting event is where participants showcase their problem-solving skills. The competition involves three rounds spanning quiz, deck submission and pitching. Moreover, the participants will be judged on the basis of the creativity, feasibility, and impact of their solution and their presentation skills."} 
+            content={"The flagship consulting event is where participants showcase their problem-solving skills. The competition involves three rounds spanning quiz, deck submission and pitching."} 
             link={"https://unstop.com/competitions/bearish-bull-bash-50-business-associates-special-hours-iit-bhu-varanasi-655544"}
             />
         <EventLeft 

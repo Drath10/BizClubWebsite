@@ -1,5 +1,7 @@
 import React from 'react'
 import img1 from '../../EventImages/biz.svg'
+import bashvid from '../../EventImages/bashvideo.mp4'
+
 const Intro = () => {
   return (
     <div className='flex w-full max-w-[80rem] h-min'>
@@ -10,6 +12,9 @@ const Intro = () => {
         </div>
         <div className='w-[30%]  max-xs:w-[40%]'>
             <img src={img1} alt=""  className=' h-full'/>
+            {/* <video  width="auto" height="auto" autoplay>
+              <source src={bashvid} type="video/mp4" />
+            </video> */}
         </div>
     </div>
   )

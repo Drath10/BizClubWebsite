@@ -10,7 +10,7 @@ export default function Work(){
         {/* <div className="relative flex items-center group my-8"> */}
        
             
-        <div className="mt-[2vw]  ml-[5vw] mr-[5vw]">
+        <div className="mt-[2%]  ml-[5vw] mr-[5vw]">
             <Splide options={{
                             type: "loop",
                             gap: "20px",

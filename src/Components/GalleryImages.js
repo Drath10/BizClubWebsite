@@ -38,7 +38,7 @@ const GalleryImages = ({ img1, img2, img3 }) => {
                             pagination: false,
                             perPage: 3,
                             autoScroll: {
-                              pauseOnHover: false,
+                              pauseOnHover: true,
                               pauseOnFocus: false,
                               rewind: false,
                               speed: 1
