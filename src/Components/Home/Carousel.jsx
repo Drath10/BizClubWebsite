@@ -22,12 +22,19 @@ const Carousel = ({currentIndex,setCurrentIndex}) => {
     <Splide aria-label="My Favorite Images" 
             // data-splide='{"type":"loop","waitForTransition":"true","wheelSleep":100}' 
             className=''
-            onMove={(splide)=>{setCurrentIndex(splide.index);console.log(splide.index)}}
+            onMove={(splide)=>{setCurrentIndex(splide.index);}}
             options={{
               type:"loop",
               autoplay:true,
               interval:5000,
               flickMaxPages:1,
+              breakpoints:{
+                640:{
+                    cover:true,
+                    height:'35vw'
+                    
+                },
+            },
               pauseOnFocus:false,
               pauseOnHover:false,
               // arrows:true,
@@ -35,7 +42,7 @@ const Carousel = ({currentIndex,setCurrentIndex}) => {
           }}
             ref={splideRef}
             >
-    <SplideSlide className=''>
+    <SplideSlide className='h-[100%]'>
       <img src={img2} alt="Image 1" className=''/>
     </SplideSlide>
     <SplideSlide>

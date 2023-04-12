@@ -12,7 +12,7 @@ const Domains = () => {
         <span>We Broadly focus on these <span className='text-[#D01919]'>domains:</span></span>
     </div>
     <div className='flex justify-center mt-8 max-md:mt-2'>
-    <div className='grid grid-flow-col w-[60%] '>
+    <div className='grid grid-flow-col w-[80%] '>
         {
             domains.map((domain, index) => {
                 return ( 

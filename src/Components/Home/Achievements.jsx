@@ -25,7 +25,7 @@ const Achievements = () => {
         <div className='text-white font-bold text-[4vw] text-center max-xs:text-xl mt-[7%]'>Our <span className='text-[#D01919]'>Achievements</span></div>
         {/* <div class="flex justify-center mt-[5vh] items-center"> */}
             
-            <div class= "box-border flex justify-center ml-[15vw] mr-[15vw] mt-[5vh]">
+            <div class= "box-border flex justify-center ml-[15vw] mr-[15vw] mt-[2vh]">
             <Splide aria-label="My Favorite Images" 
             onMove={handleMove}
             // data-splide='{"type":"loop","wheelSleep":100,"autoplay":"pause"}'
@@ -36,7 +36,13 @@ const Achievements = () => {
                 interval:3000,
                 gap: "20px",
                 drag: "free",
-                height: '25vw',
+                breakpoints:{
+                  640:{
+                      perPage:1,
+                      height:'12rem'
+                  },
+                },
+                height: '28vw',
                 // autoWidth:true,
                 // autoHeight:true,
                 flickMaxPages:1,

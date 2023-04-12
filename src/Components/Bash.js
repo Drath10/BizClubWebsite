@@ -14,16 +14,16 @@ const Bash = () => {
         <>
         <div className="BashHeader">
        
-        <div className="title">
+        <div className="text-[7vw] leading-[100%] w-[80%] text-center  3xl:text-[3rem] max-xs:text-[2.5rem] max-xs:w-[80%]">
             B.A.S.H
         </div>
-        <div className="subtitle">
+        <div className="text-[4vw] leading-[100%] w-[80%] text-center 3xl:text-[1.5rem] max-xs:text-[1rem] max-xs:w-[80%]">
             <span className="firstLetter"> B</span>usiness   
             <span className="firstLetter"> A</span>ssociates   
             <span className="firstLetter"> S</span>pecial   
             <span className="firstLetter"> H</span>ours  
         </div>
-        <div className="content">
+        <div  className='mt-[2vw] text-[3vw] leading-[100%] w-[80%] text-left 3xl:text-[1rem] max-xs:text-[1rem] max-xs:w-[80%]' >
         Lorem ipsum dolor sit amet consectetur. Sit enim euismod pellentesque vulputate dui vel. Feugiat eget condimentum posuere ipsum. Vehicula ut sit dolor sed parturient at nunc. Lorem ipsum dolor sit amet consectetur. Sit enim euismod pellentesque vulputate dui vel. Feugiat eget condimentum posuere ipsum. Vehicula ut sit dolor sed parturient at nunc.
         </div>
         

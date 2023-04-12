@@ -7,7 +7,7 @@ import prod from '../EventImages/ProdBreak.png'
 const Gallery = () => {
     return (
         <>
-        <div className="GalleryHead">
+        <div className='text-[6vw] font-bold leading-[100%] w-[100%] text-center 3xl:text-[90px] max-xs:text-xl max-xs:w-[100%] ' >
         <span className="text-[#D01919]">The Business Club </span> <span className="space"></span>
         is not just the place where we learn <br></br>but also a place where we <span className="space"></span>
          <span className="text-[#D01919]"> found our family!</span>

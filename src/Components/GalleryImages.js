@@ -37,6 +37,16 @@ const GalleryImages = ({ img1, img2, img3 }) => {
                             arrows: false,
                             pagination: false,
                             perPage: 3,
+                            cover:true,
+                            breakpoints:{
+                                640:{
+                                    cover:true,
+                                    perPage:2,
+                                    height:'35vw',
+                                    
+                                },
+                            },
+                            height:'30vw',
                             autoScroll: {
                               pauseOnHover: true,
                               pauseOnFocus: false,
