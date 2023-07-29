@@ -6,6 +6,10 @@ import DomainCont from './DomainCont'
 const Domains = () => {
     const domains = ["Finance & Economics", "Product Management","Data Analytics", "Consulting",]
     const [currentIndex,setCurrentIndex] = useState(0)
+    const [show, setShow] = useState(false)
+    setInterval(()=>{
+        setShow(true)
+    },5000)
   return (
     <>
     <div className='w-full text-center 3xl:text-[90px] justify-center text-white font-bold text-[3vw] max-xs:text-xl'>
@@ -24,7 +28,7 @@ const Domains = () => {
     </div>
     </div>
     <div className='mt-8 max-md:mt-4 '>
-        <Carousel currentIndex={currentIndex} setCurrentIndex={setCurrentIndex} />
+        <Carousel currentIndex={currentIndex} setCurrentIndex={setCurrentIndex} className={`${show ? '' : 'hidden'}`}/>
     </div>
     </>
   )
