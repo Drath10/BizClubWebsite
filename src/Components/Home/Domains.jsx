@@ -2,14 +2,15 @@ import React from 'react'
 import { useState } from 'react'
 import Carousel from './Carousel'
 import DomainCont from './DomainCont'
+import Blur from 'react-css-blur'
 
 const Domains = () => {
     const domains = ["Finance & Economics", "Product Management","Data Analytics", "Consulting",]
     const [currentIndex,setCurrentIndex] = useState(0)
-    const [show, setShow] = useState(false)
+    const [blur, setBlur] = useState(true)
     setInterval(()=>{
-        setShow(true)
-    },5000)
+        setBlur(false)
+    },1000)
   return (
     <>
     <div className='w-full text-center 3xl:text-[90px] justify-center text-white font-bold text-[3vw] max-xs:text-xl'>
@@ -27,9 +28,11 @@ const Domains = () => {
     }
     </div>
     </div>
+    <Blur radius={ blur ? '5px' : '0' } transition="400ms">
     <div className='mt-8 max-md:mt-4 '>
-        <Carousel currentIndex={currentIndex} setCurrentIndex={setCurrentIndex} className={`${show ? '' : 'hidden'}`}/>
+        <Carousel currentIndex={currentIndex} setCurrentIndex={setCurrentIndex} />
     </div>
+    </Blur>
     </>
   )
 }
